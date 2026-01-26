@@ -1,0 +1,18 @@
+q3 results
+
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=1 ./q3
+Calculated value of PI = 3.141593
+Execution Time = 0.003921 seconds
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=2 ./q3
+Calculated value of PI = 3.141593
+Execution Time = 0.002267 seconds
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=4 ./q3
+Calculated value of PI = 3.141593
+Execution Time = 0.001400 seconds
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=8 ./q3
+Calculated value of PI = 3.141593
+Execution Time = 0.001502 seconds

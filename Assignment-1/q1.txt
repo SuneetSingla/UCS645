@@ -1,0 +1,19 @@
+q1 - results 
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=2 ./q1
+Time: 0.000578 sec
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=3 ./q1
+Time: 0.000406 sec
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=4 ./q1
+Time: 0.000506 sec
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=5 ./q1
+Time: 0.000461 sec
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=6 ./q1
+Time: 0.000520 sec
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=7 ./q1
+Time: 0.000663 sec
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=8 ./q1
+Time: 0.001430 sec
+
+
+best perform - 3 threads 
+if increased - execution time increase and overhead happens

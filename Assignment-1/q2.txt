@@ -1,0 +1,23 @@
+q2 results
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=2 ./q2
+1D Parallel Matrix Multiplication Time: 1.156541 seconds
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=4 ./q2
+1D Parallel Matrix Multiplication Time: 1.178380 seconds
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=8 ./q2
+1D Parallel Matrix Multiplication Time: 1.346142 seconds
+
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=2 ./q2_2d
+2D Parallel Matrix Multiplication Time: 1.140055 seconds
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=4 ./q2_2d
+2D Parallel Matrix Multiplication Time: 1.295709 seconds
+
+sunny@DESKTOP-BBRJJ1A:~/UCS645$ OMP_NUM_THREADS=8 ./q2_2d
+2D Parallel Matrix Multiplication Time: 1.593449 seconds
+
+
+
